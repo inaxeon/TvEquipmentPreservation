@@ -1,0 +1,4 @@
+The three PALs are marked PAL20X8NC (National Semiconductor).
+This is a special type of PAL with XOR gates at the outputs.
+They read correctly as MMI PAL20X8.
+A tested conversion to GAL22V10 is given.
