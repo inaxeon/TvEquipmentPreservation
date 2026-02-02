@@ -75,7 +75,10 @@ FIELD COUNT = [COUNT10..0];
             GEN_LOC & !ODD_FIELD & nODD_FIELDq0;
 V_TC.oe = 'b'0;
 
-/* D1_VBLKG assert */
+/* D1_VBLKG assert
+ * On 405 line D1_VBLKG is not used for D1 blanking, but only for gating the
+ * CLAMP signal. The values chosen have only this purpose.
+ */
 !D1_VBLKG.d =
             (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'620) # /* 625 */
             (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'522) # /* 525 */
@@ -95,16 +98,16 @@ D1_VBLKG.oe = 'b'1;
 D1_VBLKG_RESET.d =
             (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'19)  # /* 625 */
             (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'6)   # /* 525 */
-            (V_DIV_SEL: 3) & !GEN_LOC & (COUNT: 'd'7)   # /* 405 */
+            (V_DIV_SEL: 3) & !GEN_LOC & (COUNT: 'd'3)   # /* 405 */
             (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'332) # /* 625 */
             (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'269) # /* 525 */
-            (V_DIV_SEL: 3) & !GEN_LOC & (COUNT: 'd'210) # /* 405 */
+            (V_DIV_SEL: 3) & !GEN_LOC & (COUNT: 'd'206) # /* 405 */
             (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'20)  # /* 625 */
             (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'7)   # /* 525 */
-            (V_DIV_SEL: 3) &  GEN_LOC & (COUNT: 'd'8)   # /* 405 */
+            (V_DIV_SEL: 3) &  GEN_LOC & (COUNT: 'd'4)   # /* 405 */
             (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'333) # /* 625 */
             (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'270) # /* 525 */
-            (V_DIV_SEL: 3) &  GEN_LOC & (COUNT: 'd'211);  /* 405 */
+            (V_DIV_SEL: 3) &  GEN_LOC & (COUNT: 'd'207);  /* 405 */
 
 !nODD_FIELD.d =  ODD_FIELD;
 nODD_FIELD.oe = 'b'0;
