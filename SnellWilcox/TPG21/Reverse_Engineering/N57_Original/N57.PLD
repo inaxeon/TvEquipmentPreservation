@@ -1,0 +1,172 @@
+/*
+ *   Snell & Wilcox TPG-21
+ *   N57 Recreation
+ *   This file compiles to a bit-for-bit identical fusemap to the original
+ * 
+ *   File        : N57.PLD
+ *   Author      : Matt Millman
+ *   Description : Vertical blanking counter
+ *
+ *   This is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 2 of the License, or
+ *   (at your option) any later version.
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *   You should have received a copy of the GNU General Public License
+ *   along with this software.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+Name     N57 ;
+PartNo   "ATV750B" ;
+Date     29/01/2026 ;
+Revision 01 ;
+Designer Matt Millman ;
+Company  - ;
+Assembly None ;
+Location  ;
+Device   V750 ;
+
+/* &=AND #=OR $=XOR */
+
+PIN 2 = HD;
+PIN 3 = V_DIV_SEL2;
+PIN 4 = V_DIV_SEL1;
+PIN 5 = V_DIV_SEL0;
+PIN 6 = GL2;
+PIN 7 = ODD_FIELDA;
+PIN 8 = PRESET_MODE;
+PIN 9 = VCO_SEL1;
+PIN 10 = VCO_SEL0;
+PIN 11 = INVERT_SEL;
+PIN 13 = STORE_SEL;
+PIN 14 = COUNT1pin;
+PIN 15 = COUNT5pin;
+PIN 16 = COUNT9pin;
+PIN 17 = COUNT_RESET;
+PIN 18 = nBG_RST_RESET;
+PIN 19 = nBG_RST;
+PIN 20 = rf20;
+PIN 21 = rf21;
+PIN 22 = COUNT7pin;
+PIN 23 = COUNT3pin;
+
+FIELD V_DIV_SEL = [V_DIV_SEL2..0];
+FIELD COUNT = [COUNT10..0];
+
+PINNODE 25 = COUNT0;
+PINNODE 34 = COUNT2;
+PINNODE 26 = COUNT4;
+PINNODE 33 = COUNT6;
+PINNODE 27 = COUNT8;
+PINNODE 32 = COUNT10;
+PINNODE 35 = COUNT1;
+PINNODE 36 = COUNT5;
+PINNODE 37 = COUNT9;
+PINNODE 38 = COUNT_RESETq0;
+PINNODE 39 = nBG_RST_RESETq0;
+PINNODE 40 = rf19q0;
+PINNODE 41 = rf20q0;
+PINNODE 42 = rf21q0;
+PINNODE 43 = COUNT7;
+PINNODE 44 = COUNT3;
+
+COUNT_RESET.d =  ODD_FIELDA & !rf21q0;
+COUNT_RESET.oe = 'b'1;
+
+/* nBG_RST assert */
+!nBG_RST.d =  
+            (V_DIV_SEL: 0) & !VCO_SEL0 &  STORE_SEL & (COUNT: 'd'618) # /* 625 */
+            (V_DIV_SEL: 0) & !VCO_SEL0 &  STORE_SEL & (COUNT: 'd'306) # /* 625 */
+            (V_DIV_SEL: 0) & !VCO_SEL0 & !STORE_SEL & (COUNT: 'd'619) # /* 625 */
+            (V_DIV_SEL: 0) & !VCO_SEL0 & !STORE_SEL & (COUNT: 'd'307) # /* 625 */
+            (V_DIV_SEL: 1) & (COUNT: 'd'520) #                          /* 525 */
+            (V_DIV_SEL: 1) & (COUNT: 'd'258);                           /* 525 */
+nBG_RST.oe = 'b'1;
+
+/* nBG_RST de-assert */
+nBG_RST_RESET.d = 
+            (V_DIV_SEL: 0) &  STORE_SEL & (COUNT: 'd'3)   # /* 625 */
+            (V_DIV_SEL: 0) &  STORE_SEL & (COUNT: 'd'315) # /* 625 */
+            (V_DIV_SEL: 0) & !STORE_SEL & (COUNT: 'd'2)   # /* 625 */
+            (V_DIV_SEL: 0) & !STORE_SEL & (COUNT: 'd'316) # /* 625 */
+            (V_DIV_SEL: 1) & (COUNT: 'd'6) #                /* 525 */
+            (V_DIV_SEL: 1) & (COUNT: 'd'269) #              /* 525 */
+            GL2;
+nBG_RST_RESET.oe = 'b'1;
+
+!rf20.d =  'b'0;
+rf20.oe = 'b'0;
+
+!rf21.d =  ODD_FIELDA;
+rf21.oe = 'b'0;
+
+COUNT0.d     = !COUNT0;
+!COUNT1pin.d = !COUNT1;
+COUNT2.d     = !COUNT2;
+!COUNT3pin.d = !COUNT3;
+COUNT4.d     = !COUNT4;
+!COUNT5pin.d = !COUNT5;
+COUNT6.d     = !COUNT6;
+!COUNT7pin.d = !COUNT7;
+COUNT8.d     = !COUNT8;
+!COUNT9pin.d = !COUNT9;
+COUNT10.d    = !COUNT10;
+
+COUNT1pin.oe = 'b'0;
+COUNT3pin.oe = 'b'0;
+COUNT5pin.oe = 'b'0;
+COUNT7pin.oe = 'b'0;
+COUNT9pin.oe = 'b'0;
+
+/* Clocks */          
+COUNT1pin.ck = !COUNT0;
+COUNT5pin.ck = !COUNT4;
+COUNT9pin.ck = !COUNT8;
+COUNT_RESET.ck = !HD;
+nBG_RST_RESET.ck = !HD;
+nBG_RST.ck = !HD & !rf19q0;
+rf21.ck = !HD;
+COUNT7pin.ck = !COUNT6;
+COUNT3pin.ck = !COUNT2;
+COUNT0.ck = !HD;
+COUNT4.ck = !COUNT3;
+COUNT8.ck = !COUNT7;
+COUNT10.ck = !COUNT9;
+COUNT6.ck = !COUNT5;
+COUNT2.ck = !COUNT1;
+
+/* Asynchronous resets */
+COUNT1pin.ar = COUNT_RESETq0;
+COUNT5pin.ar = COUNT_RESETq0;
+COUNT9pin.ar = COUNT_RESETq0;
+nBG_RST.ar = nBG_RST_RESETq0;
+COUNT7pin.ar = COUNT_RESETq0;
+COUNT3pin.ar = COUNT_RESETq0;
+COUNT0.ar = COUNT_RESETq0;
+COUNT4.ar = COUNT_RESETq0;
+COUNT8.ar = COUNT_RESETq0;
+COUNT10.ar = COUNT_RESETq0;
+COUNT6.ar = COUNT_RESETq0;
+COUNT2.ar = COUNT_RESETq0;
+
+/* Synchronous presets */
+COUNT0.sp = 'b'0;
+COUNT2.sp = 'b'0;
+COUNT4.sp = 'b'0;
+COUNT6.sp = 'b'0;
+COUNT8.sp = 'b'0;
+COUNT10.sp = 'b'0;
+COUNT_RESET.sp = 'b'0;
+nBG_RST.sp = 'b'0;
+COUNT1pin.sp = 'b'0;
+COUNT5pin.sp = 'b'0;
+COUNT9pin.sp = 'b'0;
+nBG_RST_RESET.sp = 'b'0;
+rf20.ck = 'b'0;
+rf20.sp = 'b'0;
+rf21.sp = 'b'0;
+COUNT7pin.sp = 'b'0;
+COUNT3pin.sp = 'b'0;

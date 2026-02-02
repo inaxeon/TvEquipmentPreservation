@@ -1,0 +1,133 @@
+/*
+ *   Snell & Wilcox TPG-21
+ *   N163 Recreation
+ *   This file compiles to a bit-for-bit identical fusemap to the original
+ * 
+ *   File        : N163.PLD
+ *   Author      : Matt Millman
+ *   Description : Vertical phase counter
+ *
+ *   This is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 2 of the License, or
+ *   (at your option) any later version.
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *   You should have received a copy of the GNU General Public License
+ *   along with this software.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+Name     N163 ;
+PartNo   "ATV750B" ;
+Date     29/01/2026 ;
+Revision 01 ;
+Designer Matt Millman ;
+Company  - ;
+Assembly None ;
+Location  ;
+Device   V750 ;
+
+/* &=AND #=OR $=XOR */
+
+PIN 2 = ODD_FIELDA;
+PIN 3 = nH_TC;
+PIN 4 = V_DIV_SEL2;
+PIN 5 = V_DIV_SEL1;
+PIN 6 = V_DIV_SEL0;
+PIN 7 = CPU_RES;
+PIN 14 = COUNT1pin;
+PIN 19 = ODD_FIELD;
+PIN 20 = COUNT10pin;
+PIN 21 = COUNT9pin;
+PIN 22 = COUNT8pin;
+PIN 23 = COUNT3pin;
+
+FIELD V_DIV_SEL = [V_DIV_SEL2..0];
+FIELD COUNT = [COUNT10..0];
+
+PINNODE 25 = COUNT0;
+PINNODE 35 = COUNT1;
+PINNODE 34 = COUNT2;
+PINNODE 44 = COUNT3;
+PINNODE 26 = COUNT4;
+PINNODE 27 = COUNT5;
+PINNODE 28 = COUNT6;
+PINNODE 29 = COUNT7;
+PINNODE 43 = COUNT8;
+PINNODE 42 = COUNT9;
+PINNODE 41 = COUNT10;
+
+PINNODE 40 = ODD_FIELDq0;
+PINNODE 30 = UNKNOWN1; // Not sure what this point of this is
+
+ODD_FIELD.d = UNKNOWN1 #
+            (V_DIV_SEL: 0) & (COUNT: 'd'623) # /* 625 */
+            (V_DIV_SEL: 1) & (COUNT: 'd'523) # /* 525 */
+            (V_DIV_SEL: 3) & (COUNT: 'd'403);  /* 405 */
+ODD_FIELD.oe = 'b'1;
+
+COUNT0.d     = !COUNT0;
+!COUNT1pin.d = (COUNT1  $ COUNT0);
+COUNT2.d     = (COUNT2  $ (COUNT0 & COUNT1));
+!COUNT3pin.d = (COUNT3  $ (COUNT0 & COUNT1 & COUNT2));
+COUNT4.d     = (COUNT4  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3));
+COUNT5.d     = (COUNT5  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4));
+COUNT6.d     = (COUNT6  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4 & COUNT5));
+COUNT7.d     = (COUNT7  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4 & COUNT5 & COUNT6));
+COUNT8pin.d  = (COUNT8  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4 & COUNT5 & COUNT6 & COUNT7));
+COUNT9pin.d  = (COUNT9  $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4 & COUNT5 & COUNT6 & COUNT7 & COUNT8));
+COUNT10pin.d = (COUNT10 $ (COUNT0 & COUNT1 & COUNT2 & COUNT3 & COUNT4 & COUNT5 & COUNT6 & COUNT7 & COUNT8 & COUNT9));
+
+COUNT1pin.oe = 'b'0;
+COUNT3pin.oe = 'b'0;
+COUNT8pin.oe = 'b'1;
+COUNT9pin.oe = 'b'1;
+COUNT10pin.oe = 'b'1;
+
+UNKNOWN1.d =  'b'1;
+
+/* Clocks */          
+COUNT1pin.ck = !nH_TC;
+ODD_FIELD.ck = !nH_TC;
+COUNT10pin.ck = !nH_TC;
+COUNT9pin.ck = !nH_TC;
+COUNT8pin.ck = !nH_TC;
+COUNT3pin.ck = !nH_TC;
+COUNT0.ck = !nH_TC;
+COUNT4.ck = !nH_TC;
+COUNT5.ck = !nH_TC;
+COUNT6.ck = !nH_TC;
+COUNT7.ck = !nH_TC;
+UNKNOWN1.ck = !CPU_RES;
+COUNT2.ck = !nH_TC;
+
+/* Asynchronous resets */
+COUNT1pin.ar = ODD_FIELDq0;
+COUNT10pin.ar = ODD_FIELDq0;
+COUNT9pin.ar = ODD_FIELDq0;
+COUNT8pin.ar = ODD_FIELDq0;
+COUNT3pin.ar = ODD_FIELDq0;
+COUNT0.ar = ODD_FIELDq0;
+COUNT4.ar = ODD_FIELDq0;
+COUNT5.ar = ODD_FIELDq0;
+COUNT6.ar = ODD_FIELDq0;
+COUNT7.ar = ODD_FIELDq0;
+UNKNOWN1.ar = !nH_TC;
+COUNT2.ar = ODD_FIELDq0;
+
+/* Synchronous presets */
+COUNT0.sp = 'b'0;
+COUNT10pin.sp = 'b'0;
+COUNT1pin.sp = 'b'0;
+COUNT2.sp = 'b'0;
+COUNT3pin.sp = 'b'0;
+COUNT4.sp = 'b'0;
+COUNT5.sp = 'b'0;
+COUNT6.sp = 'b'0;
+COUNT7.sp = 'b'0;
+COUNT8pin.sp = 'b'0;
+COUNT9pin.sp = 'b'0;
+ODD_FIELD.sp = 'b'0;
+UNKNOWN1.sp = 'b'0;

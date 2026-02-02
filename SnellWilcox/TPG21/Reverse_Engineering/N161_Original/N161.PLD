@@ -1,0 +1,194 @@
+/*
+ *   Snell & Wilcox TPG-21
+ *   N161 Recreation
+ *   This file compiles to a bit-for-bit identical fusemap to the original
+ * 
+ *   File        : N161.PLD
+ *   Author      : Matt Millman
+ *   Description : Vertical counter 1
+ *
+ *   This is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 2 of the License, or
+ *   (at your option) any later version.
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *   You should have received a copy of the GNU General Public License
+ *   along with this software.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+Name     N161 ;
+PartNo   "ATV750B" ;
+Date     28/01/2026 ;
+Revision 01 ;
+Designer Matt Millman ;
+Company  - ;
+Assembly None ;
+Location  ;
+Device   V750 ;
+
+/* &=AND #=OR $=XOR */
+
+PIN 1 = CLK;
+PIN 2 = nH_TC;
+PIN 3 = V_DIV_SEL2;
+PIN 4 = V_DIV_SEL1;
+PIN 5 = V_DIV_SEL0;
+PIN 6 = GEN_LOC;
+PIN 7 = ODD_FIELD;
+PIN 8 = i8;
+PIN 14 = COUNT1pin;
+PIN 15 = FI_RESET;
+PIN 16 = V_TC;
+PIN 17 = FI;
+PIN 18 = SPG_VCLR;
+PIN 19 = D1_VBLKG;
+PIN 20 = nODD_FIELD;
+PIN 21 = COUNT9pin;
+PIN 22 = COUNT8pin;
+PIN 23 = COUNT3pin;
+
+PINNODE 25 = COUNT0;
+PINNODE 35 = COUNT1;
+PINNODE 34 = COUNT2;
+PINNODE 44 = COUNT3;
+PINNODE 26 = COUNT4;
+PINNODE 27 = COUNT5;
+PINNODE 28 = COUNT6;
+PINNODE 29 = COUNT7;
+PINNODE 43 = COUNT8;
+PINNODE 42 = COUNT9;
+PINNODE 31 = COUNT10;
+
+PINNODE 37 = V_TCq0;
+PINNODE 30 = D1_VBLKG_RESET;
+PINNODE 40 = D1_VBLKGq0;
+PINNODE 41 = nODD_FIELDq0;
+PINNODE 36 = FI_RESETq0;
+PINNODE 38 = FIq0;
+
+FIELD V_DIV_SEL = [V_DIV_SEL2..0];
+FIELD COUNT = [COUNT10..0];
+
+!V_TC.d =   (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'625)  # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'525)  # /* 525 */
+            (V_DIV_SEL: 2) & !GEN_LOC & (COUNT: 'd'623)  # /* Eureka 1250 */
+            (V_DIV_SEL: 3) & !GEN_LOC & (COUNT: 'd'1125) # /* 1125 HiVision */
+            GEN_LOC & !ODD_FIELD & nODD_FIELDq0;
+V_TC.oe = 'b'0;
+
+/* FI assert */
+!FI.d =     (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'623) # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'1)   # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'624) # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'2);    /* 525 */
+FI.oe = 'b'1;
+
+/* FI de-assert */
+!FI_RESET.d =
+            (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'310) # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'263) # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'311) # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'264);  /* 525 */
+FI_RESET.oe = 'b'0;
+
+SPG_VCLR.d =
+            (V_DIV_SEL: [0,'d'2]) & !GEN_LOC & (COUNT: 'd'623)  # /* 625, Eureka 1250 */
+            (V_DIV_SEL: 1) &        !GEN_LOC & (COUNT: 'd'523)  # /* 525 */
+            (V_DIV_SEL: 3) &        !GEN_LOC & (COUNT: 'd'1123) # /* 1125 HiVision */
+            GEN_LOC & ODD_FIELD;
+SPG_VCLR.oe = 'b'1;
+
+/* D1_VBLKG assert */
+!D1_VBLKG.d =
+            (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'620) # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'522) # /* 525 */
+            (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'307) # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'260) # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'621) # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'523) # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'308) # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'261);  /* 525 */
+D1_VBLKG.oe = 'b'1;
+
+/* D1_VBLKG de-assert */
+D1_VBLKG_RESET.d =
+            (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'19)  # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'6)   # /* 525 */
+            (V_DIV_SEL: 0) & !GEN_LOC & (COUNT: 'd'332) # /* 625 */
+            (V_DIV_SEL: 1) & !GEN_LOC & (COUNT: 'd'269) # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'20)  # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'7)   # /* 525 */
+            (V_DIV_SEL: 0) &  GEN_LOC & (COUNT: 'd'333) # /* 625 */
+            (V_DIV_SEL: 1) &  GEN_LOC & (COUNT: 'd'270);  /* 525 */
+
+!nODD_FIELD.d =  ODD_FIELD;
+nODD_FIELD.oe = 'b'0;
+
+COUNT0.d =     !COUNT0;
+!COUNT1pin.d = (COUNT1 $ COUNT0);
+COUNT2.d =     (COUNT2 $ (COUNT1 & COUNT0));
+!COUNT3pin.d = (COUNT3 $ (COUNT2 & COUNT1 & COUNT0));
+COUNT4.d =     (COUNT4 $ (COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT5.d =     (COUNT5 $ (COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT6.d =     (COUNT6 $ (COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT7.d =     (COUNT7 $ (COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT8pin.d =  (COUNT8 $ (COUNT7 & COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT9pin.d =  (COUNT9 $ (COUNT8 & COUNT7 & COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT10.d =    !COUNT10;
+
+COUNT1pin.oe = 'b'0;
+COUNT3pin.oe = 'b'0;
+COUNT8pin.oe = 'b'1;
+COUNT9pin.oe = 'b'1;
+
+/* Clocks */          
+COUNT1pin.ck = !nH_TC;
+FI_RESET.ck = CLK & i8;
+V_TC.ck = CLK;
+FI.ck = CLK & i8 & !FIq0;
+SPG_VCLR.ck = !nH_TC;
+D1_VBLKG.ck = CLK & i8 & !D1_VBLKGq0;
+nODD_FIELD.ck = CLK;
+COUNT9pin.ck = !nH_TC;
+COUNT8pin.ck = !nH_TC;
+COUNT3pin.ck = !nH_TC;
+COUNT0.ck = !nH_TC;
+COUNT4.ck = !nH_TC;
+COUNT5.ck = !nH_TC;
+COUNT6.ck = !nH_TC;
+COUNT7.ck = !nH_TC;
+D1_VBLKG_RESET.ck = CLK & i8;
+COUNT10.ck = !COUNT9;
+COUNT2.ck = !nH_TC;
+
+/* Asynchronous resets */
+COUNT1pin.ar = V_TCq0;
+FI.ar = FI_RESETq0;
+D1_VBLKG.ar = D1_VBLKG_RESET;
+COUNT9pin.ar = V_TCq0;
+COUNT8pin.ar = V_TCq0;
+COUNT3pin.ar = V_TCq0;
+COUNT0.ar = V_TCq0;
+COUNT4.ar = V_TCq0;
+COUNT5.ar = V_TCq0;
+COUNT6.ar = V_TCq0;
+COUNT7.ar = V_TCq0;
+COUNT10.ar = V_TCq0;
+COUNT2.ar = V_TCq0;
+
+/* Synchronous presets */
+COUNT.sp = 'b'0;
+COUNT1pin.sp = 'b'0;
+COUNT3pin.sp = 'b'0;
+COUNT8pin.sp = 'b'0;
+COUNT9pin.sp = 'b'0;
+D1_VBLKG.sp = 'b'0;
+D1_VBLKG_RESET.sp = 'b'0;
+FI.sp = 'b'0;
+FI_RESET.sp = 'b'0;
+SPG_VCLR.sp = 'b'0;
+V_TC.sp = 'b'0;
+nODD_FIELD.sp = 'b'0;

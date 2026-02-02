@@ -1,0 +1,201 @@
+/*
+ *   Snell & Wilcox TPG-21
+ *   N160 Recreation
+ *   This file compiles to a bit-for-bit identical fusemap to the original
+ * 
+ *   File        : N160.PLD
+ *   Author      : Matt Millman
+ *   Description : Horizontal counter
+ *
+ *   This is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 2 of the License, or
+ *   (at your option) any later version.
+ *   This software is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *   You should have received a copy of the GNU General Public License
+ *   along with this software.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+Name     N160 ;
+PartNo   "ATV750B" ;
+Date     23/01/2026 ;
+Revision 01 ;
+Designer Matt Millman ;
+Company  - ;
+Assembly None ;
+Location  ;
+Device   V750B ;
+
+/* &=AND #=OR $=XOR */
+
+PIN 1 = CLK;
+PIN 2 = PRESET_MODE;
+PIN 3 = H_DIV_SEL2;
+PIN 4 = H_DIV_SEL1;
+PIN 5 = H_DIV_SEL0;
+PIN 6 = SPG_VCLR;
+PIN 7 = FI;
+PIN 8 = D1_VBLKG;
+PIN 13 = SPARE1;
+PIN 19 = CLAMP;
+PIN 17 = H_PSW;
+PIN 18 = nH_TC;
+PIN 15 = D1_HBLKG;
+PIN 14 = COUNT1pin;
+PIN 16 = COUNT2pin;
+PIN 20 = COUNT10pin;
+PIN 21 = COUNT9pin;
+PIN 22 = COUNT8pin;
+PIN 23 = COUNT3pin;
+
+PINNODE 25 = COUNT0;
+PINNODE 26 = COUNT4;
+PINNODE 27 = COUNT5;
+PINNODE 28 = COUNT6;
+PINNODE 29 = COUNT7;
+PINNODE 30 = CLAMP_RESET;
+PINNODE 34 = D1_HBLKG_RESET;
+PINNODE 35 = COUNT1;
+PINNODE 36 = D1_HBLKGq0;
+PINNODE 37 = COUNT2;
+PINNODE 39 = nH_TCq0;
+PINNODE 40 = CLAMPq0;
+PINNODE 44 = COUNT3;
+PINNODE 43 = COUNT8;
+PINNODE 42 = COUNT9;
+PINNODE 41 = COUNT10;
+
+FIELD H_DIV_SEL = [H_DIV_SEL2..0];
+FIELD COUNT = [COUNT10..0];
+
+// NOTE: All timings are affected by two clocks depending on the state of PRESET_MODE
+
+/* D1_HBLKG high */
+D1_HBLKG.d = (H_DIV_SEL: 0)     & (COUNT: 'd'1010) # /* PAL/D2  */
+             (H_DIV_SEL: [1,5]) & (COUNT: 'd'718)  # /* PAL-N, 625 D1 */
+             (H_DIV_SEL: 2)     & (COUNT: 'd'718)  # /* PAL-M */
+             (H_DIV_SEL: 3)     & (COUNT: 'd'783)  # /* NTSC/D2 */
+             (H_DIV_SEL: [4,6]) & (COUNT: 'd'708);   /* 525 D1/YPbPr, NTSC 4.43 */
+             // 7 not here
+D1_HBLKG.oe = 'b'1;
+
+/* D1_HBLKG low */
+D1_HBLKG_RESET.d =
+            (H_DIV_SEL: 'd'7)   & (COUNT: 'd'540) # /* 1125 HiVision */
+            (H_DIV_SEL: [0..3]) & (COUNT: 'd'355) # /* PAL/D2, PAL-N, PAL-M, NTSC/D2 */
+            (H_DIV_SEL: [4,6])  & (COUNT: 'd'844) # /* 525 D1/YPbPr, NTSC 4.43 */
+            (H_DIV_SEL: 5)      & (COUNT: 'd'860);  /* 625 D1/YPbPr */
+
+H_PSW = (COUNT: 'd'270);
+H_PSW.oe = 'b'1;
+
+/* Terminal count. PRESET_MODE appears to set +2/+4 */
+!nH_TC.d =  (H_DIV_SEL: 0) & (COUNT: 'd'1139) # /* +4 PAL/D2  */
+            (H_DIV_SEL: 1) & (COUNT: 'd'921)  # /* +4 PAL-N */
+            (H_DIV_SEL: 2) & (COUNT: 'd'911)  # /* +2 PAL-M */
+            (H_DIV_SEL: 3) & (COUNT: 'd'912)  # /* +2 NTSC/D2 */
+            (H_DIV_SEL: 4) & (COUNT: 'd'860)  # /* +2 525 D1/YPbPr */
+            (H_DIV_SEL: 5) & (COUNT: 'd'866)  # /* +2 625 D1/YPbPr */
+            (H_DIV_SEL: 6) & (COUNT: 'd'1128) # /* +2 NTSC 4.43 */ 
+            (H_DIV_SEL: 7) & (COUNT: 'd'562);   /* +2 1125 HiVision */
+nH_TC.oe = 'b'1;
+
+/* Clamp high */
+CLAMP.d =   (H_DIV_SEL: 0) & D1_VBLKG & (COUNT: 'd'4)    # /* PAL/D2  */
+            (H_DIV_SEL: 1) & D1_VBLKG & (COUNT: 'd'896)  # /* PAL-N */
+            (H_DIV_SEL: 2) & D1_VBLKG & (COUNT: 'd'885)  # /* PAL-M */
+            (H_DIV_SEL: 3) & D1_VBLKG & (COUNT: 'd'884)  # /* NTSC/D2 */
+            (H_DIV_SEL: 4) & D1_VBLKG & (COUNT: 'd'828)  # /* 525 D1/YPbPr */
+            (H_DIV_SEL: 5) & D1_VBLKG & (COUNT: 'd'835)  # /* 625 D1/YPbPr */
+            (H_DIV_SEL: 6) & D1_VBLKG & (COUNT: 'd'1119) # /* NTSC 4.43 */ 
+            (H_DIV_SEL: 7) &            (COUNT: 'd'466);   /* 1125 HiVision */
+CLAMP.oe = 'b'1;
+
+/* Clamp low */
+CLAMP_RESET.d = 
+            (H_DIV_SEL: 0) & (COUNT: 'd'21)  # /* PAL/D2  */
+            (H_DIV_SEL: 1) & (COUNT: 'd'906) # /* PAL-N */
+            (H_DIV_SEL: 2) & (COUNT: 'd'897) # /* PAL-M */
+            (H_DIV_SEL: 3) & (COUNT: 'd'900) # /* NTSC/D2 */
+            (H_DIV_SEL: 4) & (COUNT: 'd'843) # /* 525 D1/YPbPr */
+            (H_DIV_SEL: 5) & (COUNT: 'd'849) # /* 625 D1/YPbPr */
+            (H_DIV_SEL: 6) & (COUNT: 'd'9)   # /* NTSC 4.43 */ 
+            (H_DIV_SEL: 7) & (COUNT: 'd'484);  /* 1125 HiVision */
+
+COUNT0.d = !COUNT0;
+
+!COUNT1pin.d = SPARE1 & nH_TCq0 #
+            !nH_TCq0 & (COUNT1 $ COUNT0);
+
+!COUNT2pin.d = PRESET_MODE & nH_TCq0 #
+            !PRESET_MODE & !SPG_VCLR & nH_TCq0 #
+            COUNT0 & COUNT1 & !COUNT2 & !nH_TCq0 #
+            !COUNT0 & COUNT2 & !nH_TCq0 #
+            !COUNT1 & COUNT2 & !nH_TCq0;
+
+!COUNT3pin.d = (COUNT3 $ (COUNT2 & COUNT1 & COUNT0));
+COUNT4.d     = (COUNT4 $ (COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT5.d     = (COUNT5 $ (COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT6.d     = (COUNT6 $ (COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT7.d     = (COUNT7 $ (COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT8pin.d  = (COUNT8 $ (COUNT7 & COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT9pin.d  = (COUNT9 $ (COUNT8 & COUNT7 & COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+COUNT10pin.d = (COUNT10 $ (COUNT9 & COUNT8 & COUNT7 & COUNT6 & COUNT5 & COUNT4 & COUNT3 & COUNT2 & COUNT1 & COUNT0));
+
+COUNT1pin.oe = 'b'0;
+COUNT2pin.oe = 'b'0;
+COUNT3pin.oe = 'b'0;
+COUNT8pin.oe = 'b'1;
+COUNT9pin.oe = 'b'1;
+
+
+/* Clocks */          
+D1_HBLKG.ck = CLK & !D1_HBLKGq0;
+nH_TC.ck = CLK;
+CLAMP.ck = CLK & !CLAMPq0;
+COUNT1pin.ck = CLK;
+COUNT2pin.ck = CLK;
+COUNT3pin.ck = CLK;
+COUNT8pin.ck = CLK;
+COUNT9pin.ck = CLK;
+COUNT10pin.ck = CLK;
+COUNT0.ck = CLK;
+COUNT4.ck = CLK;
+COUNT5.ck = CLK;
+COUNT6.ck = CLK;
+COUNT7.ck = CLK;
+CLAMP_RESET.ck = CLK;
+D1_HBLKG_RESET.ck = CLK;
+
+/* Asynchronous resets */
+D1_HBLKG.ar = D1_HBLKG_RESET;
+CLAMP.ar = CLAMP_RESET;
+COUNT10pin.ar = nH_TCq0;
+COUNT9pin.ar = nH_TCq0;
+COUNT8pin.ar = nH_TCq0;
+COUNT3pin.ar = nH_TCq0;
+COUNT0.ar = nH_TCq0;
+COUNT4.ar = nH_TCq0;
+COUNT5.ar = nH_TCq0;
+COUNT6.ar = nH_TCq0;
+COUNT7.ar = nH_TCq0;
+
+/* Synchronous presets */
+CLAMP.sp = 'b'0;
+D1_HBLKG.sp = 'b'0;
+nH_TC.sp = 'b'0;
+COUNT1pin.sp = 'b'0;
+COUNT2pin.sp = 'b'0;
+COUNT10pin.sp = 'b'0;
+COUNT9pin.sp = 'b'0;
+COUNT8pin.sp = 'b'0;
+COUNT3pin.sp = 'b'0;
+COUNT.sp = 'b'0;
+CLAMP_RESET.sp = 'b'0;
+D1_HBLKG_RESET.sp = 'b'0;
+D1_HBLKGq0.sp = 'b'0;
+nH_TCq0.sp = 'b'0;
+CLAMPq0.sp = 'b'0;

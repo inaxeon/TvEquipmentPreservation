@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jedutil", "jedutil\jedutil.vcxproj", "{AC76A09B-87C2-4A90-9F96-B4915DF3136A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Debug|x64.ActiveCfg = Debug|x64
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Debug|x64.Build.0 = Debug|x64
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Debug|x86.Build.0 = Debug|Win32
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Release|x64.ActiveCfg = Release|x64
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Release|x64.Build.0 = Release|x64
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Release|x86.ActiveCfg = Release|Win32
+		{AC76A09B-87C2-4A90-9F96-B4915DF3136A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B5DDED6-47AF-48B6-B573-FC3251518638}
+	EndGlobalSection
+EndGlobal
