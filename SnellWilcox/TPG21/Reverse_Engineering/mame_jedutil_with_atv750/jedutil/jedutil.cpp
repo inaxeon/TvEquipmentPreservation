@@ -6853,8 +6853,8 @@ static void config_atv750_pins(const pal_data* pal, const jed_data* jed)
 				if (!jed_get_fuse(jed, macrocells[index].s1_fuse))
 				{
 					output_pins[index].flags |= COMBINED_TERMS;
-					output_pins[index + 20].flags |= OUTPUT_NONE; //Q1 register. Don't resolve in combined terms mode.
-					output_pins[index + 10].flags |= OUTPUT_NONE; //Q0 register. Don't resolve in combined terms mode.
+					output_pins[index + 20].flags |= OUTPUT_NONE; //Q0 register. Don't resolve in combined terms mode.
+					output_pins[index + 10].flags |= OUTPUT_NONE; //Q1 register. Don't resolve in combined terms mode.
 				}
 				else
 				{

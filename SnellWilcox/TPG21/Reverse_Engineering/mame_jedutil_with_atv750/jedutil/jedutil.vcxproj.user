@@ -4,7 +4,7 @@
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>-view N:\Electronics\TV\SnellWillcox\TPG21\ROM_Dumps\TCF_Version\N57.jed ATV750</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-view N:\Electronics\TV\SnellWillcox\TPG21\ROM_Dumps\TCF_Version\N160.jed ATV750</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

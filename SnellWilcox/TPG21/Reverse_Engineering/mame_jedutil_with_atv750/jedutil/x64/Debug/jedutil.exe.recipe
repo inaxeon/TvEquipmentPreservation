@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>N:\Electronics\TV\SnellWillcox\TPG21\Reverse_Engineering\jedutil\x64\Debug\jedutil.exe</FullPath>
+      <FullPath>C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\x64\Debug\jedutil.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

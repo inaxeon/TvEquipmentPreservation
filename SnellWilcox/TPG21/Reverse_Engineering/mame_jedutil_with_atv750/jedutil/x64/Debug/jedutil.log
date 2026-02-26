@@ -1,1 +1,784 @@
-﻿  jedutil.vcxproj -> N:\Electronics\TV\SnellWillcox\TPG21\Reverse_Engineering\jedutil\x64\Debug\jedutil.exe
+﻿  corestr.cpp
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\corestr.cpp(179,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\corestr.cpp(180,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\corestr.cpp(183,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\corestr.cpp(183,78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ioprocs.cpp
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(316,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(316,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(316,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(400,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(400,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(400,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_adapter': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(400,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_adapter': inherits 'util::`anonymous-namespace'::stdio_read_adapter::util::`anonymous-namespace'::stdio_read_adapter::read_some' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(243,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_read_adapter::read_some'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(400,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_adapter': inherits 'util::`anonymous-namespace'::stdio_read_adapter::util::`anonymous-namespace'::stdio_read_adapter::read_some_at' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(274,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_read_adapter::read_some_at'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_write_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(405,40):
+  	see reference to class template instantiation 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_write_adapter,0>' being compiled
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(74,41):
+  	see reference to class template instantiation 'util::read_stream_fill_wrapper<Base,0>' being compiled
+          with
+          [
+              Base=util::`anonymous-namespace'::stdio_read_write_adapter
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_write_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_write_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_read_adapter::util::`anonymous-namespace'::stdio_read_adapter::read_some_at' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_write_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(274,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_read_adapter::read_some_at'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_write_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_write_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_write_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(547,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_filler': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(547,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_filler': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(547,1): warning C4250: 'util::`anonymous-namespace'::stdio_read_write_filler': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(448,15): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(459,46): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(517,16): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(668,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::seek' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(561,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(668,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::tell' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(590,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(668,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::length' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(596,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,88): warning C4244: 'initializing': conversion from 'const _Ty' to 'uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,88): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,88): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,88): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,88): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,29): warning C4244: 'initializing': conversion from 'const _Ty' to 'const uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,29): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,29): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,29): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(641,29): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,88): warning C4244: 'initializing': conversion from 'const _Ty' to 'uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,88): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,88): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,88): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,88): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,29): warning C4244: 'initializing': conversion from 'const _Ty' to 'const uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,29): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,29): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,29): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(659,29): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(718,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_write_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::seek' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(561,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(718,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_write_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::tell' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(590,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(718,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_write_adapter': inherits 'util::`anonymous-namespace'::osd_file_adapter_base::util::`anonymous-namespace'::osd_file_adapter_base::length' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(596,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(718,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_write_adapter': inherits 'util::`anonymous-namespace'::osd_file_read_adapter::util::`anonymous-namespace'::osd_file_read_adapter::read_some' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(638,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_read_adapter::read_some'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(718,1): warning C4250: 'util::`anonymous-namespace'::osd_file_read_write_adapter': inherits 'util::`anonymous-namespace'::osd_file_read_adapter::util::`anonymous-namespace'::osd_file_read_adapter::read_some_at' via dominance
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(656,31):
+  see declaration of 'util::`anonymous-namespace'::osd_file_read_adapter::read_some_at'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,88): warning C4244: 'initializing': conversion from 'const _Ty' to 'uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,88): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,88): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,88): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,88): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,29): warning C4244: 'initializing': conversion from 'const _Ty' to 'const uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,29): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,29): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,29): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(691,29): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,88): warning C4244: 'initializing': conversion from 'const _Ty' to 'uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,88): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,88): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,88): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,88): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,29): warning C4244: 'initializing': conversion from 'const _Ty' to 'const uint32_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,29): warning C4244:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,29): warning C4244:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,29): warning C4244:             _Ty=unsigned __int64
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(709,29): warning C4244:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::seek'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(836,35):
+  	see reference to class template instantiation 'util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>' being compiled
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::tell'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::length'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::seek'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(844,35):
+  	see reference to class template instantiation 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>,0>' being compiled
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(74,41):
+  	see reference to class template instantiation 'util::read_stream_fill_wrapper<Base,0>' being compiled
+          with
+          [
+              Base=util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::tell'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::length'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::seek'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::tell'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<const uint8_t *const ,false>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,false>::util::`anonymous-namespace'::ram_adapter_base<T,false>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=const uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,false>::length'
+          with
+          [
+              T=const uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::seek'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(857,35):
+  	see reference to class template instantiation 'util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>' being compiled
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::tell'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250: 'util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(153,1): warning C4250:         ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::length'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::seek'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(870,35):
+  	see reference to class template instantiation 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>,0>' being compiled
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(74,41):
+  	see reference to class template instantiation 'util::read_stream_fill_wrapper<Base,0>' being compiled
+          with
+          [
+              Base=util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::tell'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         and
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::length'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(43,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::seek'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(84,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::tell'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::ram_read_adapter<uint8_t *const ,true>,0>': inherits 'util::`anonymous-namespace'::ram_adapter_base<T,true>::util::`anonymous-namespace'::ram_adapter_base<T,true>::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:             T=uint8_t *const 
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(90,31):
+  see declaration of 'util::`anonymous-namespace'::ram_adapter_base<T,true>::length'
+          with
+          [
+              T=uint8_t *const 
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(891,35):
+  	see reference to class template instantiation 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_adapter,0>' being compiled
+  	C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(74,41):
+  	see reference to class template instantiation 'util::read_stream_fill_wrapper<Base,0>' being compiled
+          with
+          [
+              Base=util::`anonymous-namespace'::stdio_read_adapter
+          ]
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250: 'util::read_stream_fill_wrapper<Base,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         with
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         [
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:             Base=util::`anonymous-namespace'::stdio_read_adapter
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(70,1): warning C4250:         ]
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::seek' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(167,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::seek'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::tell' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(177,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::tell'
+  
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocsfill.h(103,1): warning C4250: 'util::random_read_fill_wrapper<util::`anonymous-namespace'::stdio_read_adapter,0>': inherits 'util::`anonymous-namespace'::stdio_adapter_base::util::`anonymous-namespace'::stdio_adapter_base::length' via dominance
+  (compiling source file 'ioprocs.cpp')
+  C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\ioprocs.cpp(186,31):
+  see declaration of 'util::`anonymous-namespace'::stdio_adapter_base::length'
+  
+  jedparse.cpp
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedparse.cpp(330,20): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedparse.cpp(375,16): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedparse.cpp(381,31): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedparse.cpp(395,16): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedparse.cpp(402,36): warning C4018: '<': signed/unsigned mismatch
+  jedutil.cpp
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2219,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2220,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2226,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2227,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2233,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2234,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2240,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2241,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2247,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2248,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2254,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2255,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2261,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2262,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2268,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2269,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2275,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2276,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2283,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2284,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2290,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2291,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2297,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2298,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2304,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2305,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2313,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2314,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2320,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2321,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2327,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2328,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2334,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2335,37): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2341,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2342,37): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2348,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2349,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2355,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2356,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2362,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2363,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2369,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2370,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2376,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2377,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2383,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2384,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2390,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2391,37): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2397,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2398,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2404,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2405,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2411,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2412,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2418,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2419,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2425,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2426,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2432,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2433,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2439,44): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2440,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2446,44): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2447,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2453,44): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2454,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2460,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2461,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2467,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2468,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2474,46): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2475,49): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2481,39): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2482,42): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2488,39): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2489,42): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2495,31): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2496,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2502,31): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2503,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2567,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2568,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2574,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2575,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2581,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2582,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2588,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2589,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2595,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2596,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2602,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2603,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2609,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2610,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2616,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2617,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2623,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2624,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2630,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2631,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2637,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2638,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2644,33): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2645,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2651,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2652,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2658,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2659,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2665,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2666,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2672,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2673,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2679,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2680,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2686,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2687,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2693,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2694,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2700,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2701,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2707,40): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2708,43): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2714,40): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2715,43): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2721,40): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2722,43): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2728,40): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2729,43): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2749,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(2769,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(3335,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(3356,19): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(3478,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(3533,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4115,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4123,19): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4218,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4226,19): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4872,20): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4880,19): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4953,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4954,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4977,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4978,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(4999,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5000,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5021,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5022,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5041,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5042,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5061,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5062,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5079,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5080,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5097,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5098,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5115,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5116,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5145,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5205,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5249,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5273,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5274,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5400,61): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5523,50): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5615,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5734,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5838,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5878,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5918,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(5978,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6022,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6046,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6047,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6072,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6073,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6098,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6099,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6122,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6123,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6148,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6149,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6287,61): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6404,50): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6541,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6622,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6708,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6747,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6786,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(6900,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7337,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7338,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7369,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7370,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7401,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7402,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7433,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7434,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7472,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7577,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7648,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7685,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7686,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7717,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7718,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7747,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7748,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7773,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7774,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7799,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7800,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7823,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7824,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7847,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7848,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7869,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7870,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7891,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7892,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7911,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7912,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7931,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7932,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7949,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7950,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7967,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7968,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7998,38): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\jedutil.cpp(7999,40): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+  plaparse.cpp
+C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\jedutil\plaparse.cpp(374,21): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  jedutil.vcxproj -> C:\Dev\TvEquipmentPreservation\SnellWilcox\TPG21\Reverse_Engineering\mame_jedutil_with_atv750\x64\Debug\jedutil.exe
